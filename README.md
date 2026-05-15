@@ -1,3 +1,30 @@
+# MRW Pulls
+
+Simple Next.js app for live booster pack openings.
+
+Build & run locally
+
+```bash
+npm install
+npm run build
+npm run start
+```
+
+Develop
+
+```bash
+npm run dev
+```
+
+Deploy
+
+- Vercel: connect the repository and use the default Next.js settings.
+- Alternatively build on any Node hosting that supports Next.js static export or server-side rendering.
+
+Notes
+
+- Twitch embed uses `player.twitch.tv` and requires `parent` query param(s) to match your deployment domain.
+- Update legal pages and contact info before public launch.
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
